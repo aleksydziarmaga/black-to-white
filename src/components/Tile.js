@@ -1,9 +1,9 @@
 import React from 'react';
 import cn from 'classnames';
 
-const Tile = ({tile}) => {
+const Tile = ({tile, onClick, board}) => {
     const className = cn('tile', {fill: !tile.empty});
-    return <div className={className} />
+    return <div onClick={() => onClick(tile.x, tile.y, board)} className={className} />
 };
 
 export default Tile;
