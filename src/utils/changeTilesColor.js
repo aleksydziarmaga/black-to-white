@@ -1,5 +1,4 @@
 const changeTilesColor = (x, y, board) => {
-
     const iterator = board.entries();
     const tilesToChange = [];
     for(let e of iterator) {
