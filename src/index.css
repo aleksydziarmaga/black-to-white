@@ -18,7 +18,9 @@ body {
 .tile {
   border: 1px solid black;
 }
-
 .fill {
   background-color: black;
+}
+.help-tile {
+  background-color: yellow;  
 }
